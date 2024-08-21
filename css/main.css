@@ -1,0 +1,409 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    height: auto;
+}
+
+nav .sec1{
+    overflow: auto;
+    margin-top: 25px;
+    padding-bottom: 10px;
+   border-bottom: 1px solid rgb(150, 145, 145); 
+}
+
+nav ul li{
+    float: right;
+    padding-right: 40px;
+    padding-top: 5px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px; 
+}
+
+nav .icon ul li i{
+    font-size: 20px;
+    color: rgb(158, 20, 158);
+}
+
+nav .sec1 .home li{
+    padding-right: 80px
+}
+
+nav .sec1 .purple{
+    font-size: 22px;
+    float: left;
+    margin-left: 20px;
+}
+.purple i{
+    font-size: 20px;
+}
+
+nav .purple span{
+    color: rgb(158, 20, 158);
+}
+
+nav .home ul li a:hover{
+    background-color: rgb(211, 130, 211);
+    border-radius: 30px;
+    color: white;
+    width: 100%;
+    height: 2px;
+    padding: 5px;
+}
+
+.bell i:hover{
+    transform: rotate(30deg);
+}
+/* ------end nav bar---------------- */
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/banner-bg-01.jpg);
+    background-size:110% 95%;
+}
+
+.hero .big{
+    margin-left: 120px;
+    padding-top: 120px;
+}
+
+.hero h1{
+    font-size: 70px;
+    color: rgb(158, 20, 158);
+}
+
+.hero .line{
+    width:300px;
+    height: 5px;;
+    background-color:rgb(158, 20, 158) ;
+    margin-top: 10px;
+}
+
+.hero p{
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.hero button{
+    border: 1px solid rgb(158, 20, 158) ;
+    color: rgb(158, 20, 158);
+    background-color: white;
+    border-radius: 50px;
+    margin-top: 30px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.hero button:hover{
+    background-color:rgb(158, 20, 158) ;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+ /* ---------End first section----------- */
+
+ .service{
+    margin-top: 60px;
+    margin-left: 40px;
+ }
+
+ .service h1{
+    text-align: center;
+    font-size: 40px;
+ }
+
+ .service .all{
+    margin-left: 170px;
+    margin-top: 40px;
+ }
+
+ .all .h{
+    width: 200px;
+    display: block;
+    border-bottom: 3px solid rgb(158, 20, 158) ;
+ }
+
+ .all h2{
+    font-size: 30px;
+ }
+ .all p{
+    font-size: 20px;
+    padding-top: 20px;
+ }
+
+ .graphic{
+    background-color:rgb(158, 20, 158) ;
+    margin-top: 60px;
+ }
+
+ .graphic .in{
+   /* padding: 60px 30px 60px 30px; */
+    font-size: 20px;
+    width: 100%;
+ }
+
+ .in ul{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    padding: 60px 30px 60px 30px;
+ }
+ .graphic .in ul li{
+    list-style-type: none;
+ }
+
+ .in ul li a{
+   text-decoration: none;
+   color: white;
+ }
+
+ .in ul li .p1{
+    background-color: rgb(208, 71, 208) ;
+    border: 1px solid rgb(208, 71, 208) ;
+    border-radius: 25px;
+    padding: 13px;
+ }
+
+ .in ul li a:hover{
+    background-color: rgb(208, 71, 208);
+    padding: 10px;
+    border-radius: 30px;
+ }
+   /* ---------end section3-------------*/
+
+.design{
+    margin-top: 50px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 10px; 
+}
+
+.one{
+    width: 20%;
+    height: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-bottom: 40px;
+    position: relative; 
+}
+
+.design .one img{
+    width: 100%;
+    border-radius: 15px;
+    opacity: 0.5;
+}
+
+.one .inside{
+    padding-left: 10px;
+    bottom: 20px;
+    position: absolute;
+}
+.design .one button{
+    border: 2px solid rgb(65, 61, 61);
+    border-radius: 20px;
+    font-size: 20px;
+    color: black;
+    background-color: transparent;
+    padding: 8px;
+}
+
+.one button:hover{
+    background-color: rgb(245, 240, 240);
+    color: black;
+    border: 1px solid black;
+    transition: all 0.5s;
+}
+
+.one h3{
+    font-size: 20px;
+    color: black;
+}
+  /* ---------end section4 ------------ */
+
+.box{
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+    margin-top: 40px;
+    background-color: rgb(158, 20, 158);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.box i{
+    float: left;
+    padding-left: 40px;
+    color: white;
+    font-size: 70px;
+}
+
+.box .great{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.box button{
+    float: right;
+    margin-top: 20px;
+    background-color:rgb(208, 71, 208) ;
+    border: 0px;
+    color: white;
+    font-size: 18px;
+    width: 160px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.box button:hover{
+    background-color:rgb(179, 61, 179) ;
+    transition: all 0.5s;
+}
+  /* -------end section5----------*/
+.r1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 80px;
+}
+
+.work{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    width: 100%;
+    height: auto;
+    gap: 20px;
+    justify-content: center;
+}
+
+.caption{
+    width: 30%;
+    height: auto;
+    position: relative;
+    margin-bottom: 30px;
+}
+ 
+.caption img{
+    border-radius: 10px;
+    opacity: 0.5;
+    width: 100%;
+    box-shadow: 0px 0px 10px black;
+}
+
+.caption .recent{
+    position: absolute;
+    bottom: 20px;
+    opacity: 1;
+    padding-left: 20px;
+    color: rgb(84, 81, 81);
+}
+
+.recent h1{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.recent:hover{
+    font-size: 40px;
+    top: 35px;
+    transition: all 1.2s;
+    color:rgb(208, 71, 208) ;
+}
+   /*-----------end section6---------*/
+
+footer{
+    background-color: rgb(208, 71, 208) ;
+    margin-top: 40px;
+    width: 100%;
+}
+
+footer .parent{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.parent .child{
+    width: 25%;
+    padding-left: 25px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+.child .icons i{
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+}
+
+.icons i:hover{
+    color:black ;
+}
+
+.child .link ul li{
+   list-style-type:none ;
+   padding: 10px 0px 10px 0px; 
+}
+
+.link ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.link ul li a:hover{
+    color: black;
+}
+
+.link ul i{
+    font-size: 10px;
+    color: white;
+}
+
+.child .client h2{
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.client h2:hover{
+    color: black;
+}
+
+.end{
+    background-color: rgb(176, 47, 176);
+    padding-top: 30px;
+    padding-bottom: 50px;
+    color: white;
+    font-size: 20px;
+}
+
+.end .copyright{
+    float: left;
+    padding-left: 20px;
+}
+
+.mo{
+    float: right;
+    padding-right: 20px;
+}
+
+
+
+
+ 
