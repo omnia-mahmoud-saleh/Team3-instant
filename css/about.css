@@ -1,0 +1,474 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* statics */
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+/* nav bar */
+
+nav{
+    width: 100%;
+    height: 90px;
+    padding: 35px 90px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.404);
+}
+
+nav .logo{
+    height: 30px;
+}
+
+nav .logo img{
+    height: 30px;
+}
+
+nav .logo h2 span{
+    color: rgb(158, 20, 158);
+}
+
+nav ul{
+    width: 400px;
+}
+
+
+
+nav ul li a{
+    padding: 10px 13px;
+    transition: all .5s;
+    border-radius: 30px;
+    width: 60px;
+}
+
+.icons{
+    color: rgb(158, 20, 158);
+    width: 100px;
+    font-size: 20px;
+}
+
+.icons i{
+    height: 19px;
+    transition: all .5s;
+}
+
+
+/* section "about" */
+
+.about{
+    background-color: #b1b3f52b;
+    height: auto;
+    padding: 90px;
+    
+}
+
+.about > div{
+    width: 48%;
+}
+
+.about .text{
+    width: 583px;
+    margin-top: 200px;
+    font-size: 18px;
+    color: gray;
+}
+
+
+
+.about .text h1{
+    color: rgb(158, 20, 158);
+    font-size: 42px;
+    margin-bottom: 30px;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+
+.about .text h1::after{
+    content: "";
+    width: 150px;
+    height: 5px;
+    background-color: rgb(158, 20, 158);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+
+/* section "team" */
+
+.team{
+    justify-content: center;
+    padding: 90px;
+}
+
+.team > div{
+    width: 25%;
+    
+}
+
+.team .text{
+    margin-top: 100px;
+}
+
+.team .text h1{
+    font-size: 42px;
+    margin-bottom: 30px;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.team .text h1::after{
+    content: "";
+    width: 150px;
+    height: 5px;
+    background-color: rgb(158, 20, 158);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.pro{
+    text-align: center;
+}
+
+.pro img{
+    width: 80%;
+    border-radius: 100%;
+    margin-bottom: 50px;
+    transition: all .6s;
+}
+
+.pro h4{
+    color: gray;
+    line-height: 1.2;
+}
+
+/* section "partner" */
+
+.partner{
+    background-color: rgb(158, 20, 158);
+    padding: 90px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.partner h1{
+    margin-bottom: 60px;
+}
+
+.partner .row i{
+    width: 300px;
+    height: 180px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 55px 0px;
+    box-sizing: border-box;
+    font-size: 60px;
+    transition: all .6s;
+}
+
+/* section "creative" */
+
+.creative{
+    padding: 90px;
+}
+
+.creative .text{
+    width: 430px;
+}
+
+.creative .text h1{
+    font-size: 39px;
+    margin-bottom: 35px;
+}
+
+.creative .text p{
+    width: 400px;
+    color: gray;
+}
+
+.progress{
+    width: 60%;
+    margin-top: 80px;
+}
+
+.progress .row{
+    width: 50%;
+    height: 25px;
+    padding: 10px 0px;
+}
+
+.prog{
+    width: 100%;
+    height: 6px;
+    background-color: rgba(128, 128, 128, 0.404);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.dev{
+    width: 66%;
+    height: 100%;
+    background-color: rgb(158, 20, 158);
+}
+
+.des{
+    width: 90%;
+    height: 100%;
+    background-color: rgb(158, 20, 158);
+}
+.mar{
+    width: 74%;
+    height: 100%;
+    background-color: rgb(158, 20, 158);
+}
+
+/* section "why" */
+
+.content{
+    height: 250px;
+    position: relative;
+    background-color: #6267ea1c;
+    margin-top: 250px;
+}
+
+.content img{
+    width: 500px;
+    position: absolute;
+    left: 90px;
+    bottom: 0px;
+}
+
+.content .text{
+    width: 600px;
+    position: absolute;
+    right: 260px;
+    top: 30px;
+}
+
+.content .text h1{
+    font-size: 41px;
+    margin-bottom: 30px;
+}
+
+
+.content .text p{
+    color: gray;
+    line-height: 25px;
+}
+
+
+/* section "our" */
+
+.our{
+    padding: 90px;
+}
+
+.our .row > div{
+    width: 30%;
+    text-align: center;
+    height: 300px;
+}
+
+.our .row > div i{
+    color: white;
+    width: 130px;
+    height: 130px;
+    border-radius: 20px;
+    background-color: rgb(158, 20, 158);
+    font-size: 49px;
+    padding: 40px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    transition: all .6s;
+}
+
+.our .row > div .text p{
+    color: gray;
+    margin-top: 20px;
+}
+
+/* section "email" */
+
+.email{
+    padding: 90px 250px;
+    text-align: center;
+    background-color: #b1b3f52b;
+}
+
+.email h1{
+    font-size: 42px;
+}
+
+.email div{
+    width: 550px;
+    height: 50px;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+    margin: 25px auto;
+}
+
+.email div input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 19px;
+    padding-left: 20px;
+}
+
+.email div button{
+    color: white;
+    background-color: rgb(158, 20, 158);
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border: none;
+    font-size: 19px;
+    transition: all .6s;
+}
+
+.email p{
+    color: gray;
+    width: 550px;
+    margin: auto;
+}
+
+/* footer */
+
+.footer{
+    color: white;
+    background-color: rgb(158, 20, 158);
+    padding: 90px;
+}
+
+.footer .row > div{
+    width: 300px;
+}
+
+.footer .row > div h2{
+    margin-bottom: 20px;
+}
+
+.footer .row > div p{
+    margin: 30px 0px;
+}
+
+
+.footer .row .spc ul li{
+    line-height: 40px;
+    font-size: 19px;
+}
+
+.footer .row div ul li{
+    transition: all .4s;
+}
+
+
+.footer .row > div .icon{
+    font-size: 30px !important; 
+    width: 200px;
+    justify-content: space-around;
+}
+
+/* hover */
+
+nav .logo:hover{
+    cursor: pointer;
+}
+
+nav .links li a:hover{
+    background-color: rgb(158, 20, 158);
+    color: white;
+}
+
+.icons i:hover{
+    cursor: pointer;
+    scale: 1.06;
+}
+
+#bell:hover{
+    animation-name: bel;
+    animation-duration: .8s;
+    transform-origin: top center;
+}
+
+#gear:hover{
+    animation-name: gear;
+    animation-duration: 1s;
+    transform-origin: 50% 50%;
+}
+
+.team .pro img:hover{
+    scale: 1.05;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+.partner .row i:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.our >div i:hover{
+    scale: 1.05;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+.email div button:hover{
+    background-color: rgb(122, 19, 122);
+    cursor: pointer;
+}
+
+.footer div ul li:hover{
+    scale: 1.06;
+    cursor: pointer;
+}
+
+
+/* animation */
+
+@keyframes bel{
+    25%{
+        transform: rotate(30deg);
+    }
+
+    50%{
+        transform: rotate(-30deg);
+    }
+
+    75%{
+        transform: rotate(30deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+
+}
+
+@keyframes gear{
+    from{
+        transform: rotate(0deg);
+    }
+    
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
