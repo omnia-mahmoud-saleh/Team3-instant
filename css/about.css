@@ -87,43 +87,7 @@ nav ul li a{
     color: gray;
 }
 
-.animation{
-    position: relative;
-}
 
-.loader{
-    background-color: rgba(255, 255, 255, 0);
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    z-index: 2345678;
-    animation-name: loader;
-    animation-duration: 2.5s;
-}
-
-.loader h1{
-    color: rgb(158, 20, 158);
-    font-size: 42px;
-    margin-bottom: 30px;
-    position: absolute;
-    padding-bottom: 20px;
-    top: 380px;
-    left: 90px;
-    animation-name: text;
-    animation-duration: 2s;
-}
-
-.loader h1::after{
-    content: "";
-    width: 150px;
-    height: 5px;
-    background-color: rgb(158, 20, 158);
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    animation-name: after;
-    animation-duration: 2s;
-}
 
 .about .text h1{
     color: rgb(158, 20, 158);
@@ -507,49 +471,4 @@ nav .links li a:hover{
     }
 }
 
-@keyframes text{
-    0%{
-        font-size: 72px;
-        left: 45%;
-        
-    }
-    
-    65%{
-        font-size: 72px;
-        left: 45%;
 
-    }
-
-    93%{
-        font-size: 42px;
-        left: 90px;
-    }
-}
-
-@keyframes after{
-    0%{
-        width: 250px;
-    }
-
-    50%{
-        width: 150px;
-    }
-
-    100%{
-        width: 150px;
-    }
-}
-
-@keyframes loader{
-    0%{
-        background-color: white;
-    }
-    
-    90%{
-        background-color: white;
-    }
-    
-    100%{
-        background-color: rgba(255, 255, 255, 0);
-    }
-}
